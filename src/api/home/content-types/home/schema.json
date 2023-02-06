@@ -21,7 +21,7 @@
     },
     "section1": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "carousel.product",
       "required": true,
       "min": 1
