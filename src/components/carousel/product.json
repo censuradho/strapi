@@ -1,7 +1,8 @@
 {
   "collectionName": "components_carousel_products",
   "info": {
-    "displayName": "product"
+    "displayName": "product",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::product.product"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main.footer"
     }
   }
 }
