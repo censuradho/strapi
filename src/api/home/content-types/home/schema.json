@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home",
     "pluralName": "homes",
-    "displayName": "home"
+    "displayName": "home",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,7 +16,7 @@
       "type": "component",
       "repeatable": true,
       "component": "carousel.hero",
-      "required": true,
+      "required": false,
       "min": 1
     },
     "section1": {
