@@ -25,6 +25,9 @@
       "component": "carousel.product",
       "required": true,
       "min": 1
+    },
+    "footer": {
+      "type": "json"
     }
   }
 }
