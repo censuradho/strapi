@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "carousel.hero",
+      "required": true,
+      "min": 1
+    },
+    "section1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "carousel.product",
+      "required": true,
+      "min": 3
+    }
+  }
+}
