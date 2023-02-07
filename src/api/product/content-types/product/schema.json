@@ -66,6 +66,11 @@
       "relation": "oneToMany",
       "target": "api::inventory.inventory",
       "mappedBy": "product"
+    },
+    "default_inventory": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::inventory.inventory"
     }
   }
 }
