@@ -8,6 +8,6 @@ services:
     volumes:
       - ./data:/data/postgres
     environment:
-      POSTGRES_USER: ecom
+      PGUSER: ecom
       POSTGRES_PASSWORD: 12345678
-      POSTGRES_DB: eccomerce
+      PGDATABASE: eccomerce

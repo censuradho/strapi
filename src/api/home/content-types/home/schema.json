@@ -23,7 +23,7 @@
       "type": "component",
       "repeatable": false,
       "component": "carousel.product",
-      "required": true,
+      "required": false,
       "min": 1
     },
     "footer": {
