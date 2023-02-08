@@ -12,27 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "attributo": {
+    "attribute": {
       "type": "string",
       "required": true
     },
     "value": {
       "type": "string",
       "required": true
-    },
-    "product": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::product.product",
-      "inversedBy": "inventories"
-    },
-    "images": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
     },
     "label": {
       "type": "string",
@@ -41,6 +27,12 @@
     "quantity": {
       "type": "integer",
       "required": true
+    },
+    "product": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product.product",
+      "inversedBy": "inventories"
     }
   }
 }
